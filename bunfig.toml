@@ -1,0 +1,4 @@
+# Keep dependency downloads local to this checkout so an incomplete shared
+# Windows cache entry cannot produce empty packages in node_modules.
+[install.cache]
+dir = ".bun-cache"
